@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.summary {
+  flex: 1;
+}
+
+.basic {
+  flex: 1;
+}
+
+.title {
+  font-family: "Noto Sans M", Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.basic__text {
+  display: flex;
+}
+
+.basic__text:last-child {
+  margin-bottom: 0;
+}
+
+.basic__item-name {
+  flex: 0 0 100px;
+}
+
+@media all and (max-width: 700px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .summary {
+    flex: 1;
+    order: 2;
+  }
+  .basic {
+    flex: 1;
+    order: 1;
+  }
+}

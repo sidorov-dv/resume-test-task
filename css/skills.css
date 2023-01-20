@@ -1,0 +1,22 @@
+.wrap {
+  margin: 16px 0;
+}
+
+.wrap__subtitle {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.skills-sign,
+.skills-add {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skills-sign__item,
+.skills-add__item {
+  margin-right: 10px;
+  padding: 5px;
+  padding-left: 0;
+}
